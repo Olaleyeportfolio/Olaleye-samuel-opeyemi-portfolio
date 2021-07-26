@@ -1,0 +1,304 @@
+body{
+    font-family: sans-serif;
+    margin: 0%;
+    width: 100%;
+}
+.logo{
+    font-size: 1em;
+    color: darkcyan;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 0.5em;
+    
+}
+.hide-mobile{
+    display: none;
+}
+ul{
+    list-style-type: none;
+    font-size: 1em;
+    font-weight: bold;
+}
+.content{
+    text-align: center;
+    background: rgb(229, 212, 190);
+    
+}
+.main-page{
+    text-align: center;
+    
+}
+h1{
+    text-align: center;
+    color: black;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    text-align: center;
+}
+h1{
+    font-size: 1.5em;
+    font-weight:bold;
+    text-align: center;
+    color: black;
+    padding-top: 2em;
+}
+p{
+    font-size: 1em;
+    text-align: center;
+    line-height: 1.5em;
+   
+}
+h2{
+    font-size:1.5em;
+    font-weight:bold;
+    color: black;
+    padding-top: 1em;
+}
+input[type=button]{
+    font-size: 1em;
+    background-color: black;
+    font-weight: bold;
+    color: white;
+    
+}
+h3{
+    font-size: 1.5em;
+    font-weight: bold;
+    color: black;
+}
+h4{
+    font-size: 1.5em;
+    font-weight: bold;
+    color: black;
+    margin-top: 0.1em;
+}
+p{
+    font-size: 1em;
+}
+h5{
+    font-size: 1.5em;
+    font-weight: bold;
+    color: black;
+    margin-top: 0.1em;
+}
+li{
+    font-size: 1em;
+}
+h6{
+    font-size: 1.5em;
+    font-weight: bold;
+    color: black;
+    margin-top: 0.1em;
+}
+.skill img{
+    width: 20%;
+}
+input[type=button]{
+    font-size: 1em;
+    background-color: black;
+    font-weight: bold;
+    color: white;
+}
+.Element{
+    display: inline-flex;
+    width: 20%;
+    justify-content: space-between;
+    text-align: center;
+    margin-left: -10em;
+}
+.css{
+    width: 70px;
+}
+.html{
+    width: 70px;
+}
+.java{
+    width: 70px;
+}
+.social{
+    display: inline-flex;
+    width:20%;
+    justify-content: space-between;
+}
+.social img{
+    width: 70%;
+    display: inline-flex;
+}
+.button img{
+    width: 50px;
+}
+.menu{
+    width: 33px;
+    margin-top: 30%;
+    margin-right: 2em;
+}
+.exit-btn img{
+    width: 20px;
+    cursor: pointer;
+}
+    .skill img{
+        display: block;
+        padding-right:3em;
+        width: 50%;
+    }
+    .custom{
+        background-color: white;
+    }
+    .web{
+        width: 15%;
+        padding-top: 2em;
+    }
+    .Tech{
+        width: 15%;
+        padding-top: 2em;
+    }
+    .code{
+        width: 15%;
+        padding-top: 2em;
+    }
+    .responsive{
+        list-style: square;
+        font-weight: 50;
+        font-size: 3em;
+    }
+    .box1{
+        margin-top: -2em;
+        font-size: 0.8em;
+
+    }
+    .box3{
+        margin-top: -2em;
+        font-size: 0.8em;
+    }
+    .box4{
+        margin-top: -1.5em;
+        font-size: 0.8em;
+    }
+    .Element{
+        text-align: center;
+    }
+    .box5{
+        padding-bottom: 2em;
+    }
+    .form{
+        display: inline-block;
+        padding-top: 3em;
+    }
+    .form-container{
+        text-align: center;
+        padding: 16px;
+    }
+    input[type=text]{
+        width: 70%;
+        text-align: center;
+        border: none;
+        padding: 15px;
+        margin: 5px 0 22px 0;
+        display: inline-block;
+        background-color: #2e2a2a;
+    }
+    input[type=text],select,textarea{
+        width: 100%;
+        background: #2e2a2a;
+        box-sizing: border-box;
+        padding: 12px;
+        resize: vertical;
+        border: none;
+        border-radius: 4px;
+        margin-top: 6px;
+        margin-bottom: 16px;
+    }
+    .socials{
+        text-align: center;
+        margin-bottom: -7em;
+        font-size: 10px;
+    }
+    .social{
+        margin-left: -3em;
+        padding-bottom: 0em;
+        margin-top: 5em;
+    }
+    nav ul{
+        position: fixed;
+        top: 0%;
+        width: 60%;
+        right: 0%;
+        text-align: left;
+        z-index: 7;
+        height: 100%;
+        padding-top: 5em;
+        text-decoration: none;
+        list-style-type: none;
+        background-color: #2e2a2a;
+    }
+    nav ul li a{
+        color: rgb(228, 228, 238);
+        display: block;
+        text-decoration: none;
+        padding: 1em 2em;
+        width:100%;
+    }
+    .exit-btn{
+        text-align: right;
+        padding: 0 1.5em;
+        margin-bottom: 1em;
+        margin-top: -3em;
+    }
+    .exit-btn img{
+        cursor: pointer;
+    }
+    .content{
+        animation: fadeIn 4s forwards;
+    }
+    @keyframes fadeIn {
+        from{
+            opacity: 0;
+            transform: translateY(-2em);
+        }
+        to{
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+    @media only screen and (min-width:1024px){
+        .show-desktop{
+            margin: 0 auto 13%;
+            display:block;
+            padding-left: -2em;
+            padding-right: 2em;
+        }
+        .hide-desktop{
+            display: none;
+        }    
+        nav ul{
+            display: flex;
+            width: auto;
+            height: auto;
+            background: none;
+            position: inherit;
+        }
+        nav ul li{
+            float: left;
+            padding-right: 2em;
+            padding-top: -1em;
+        }
+        nav ul li a{
+            background-color: inherit;
+            color: black;
+            font-size: 1em;
+            text-align: left;
+            margin-top:-1.8em;
+            
+        }
+        .codebox{
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            background-color: white;
+        }
+        .box8{
+            margin-bottom: 1.5em;
+        }
+    }
